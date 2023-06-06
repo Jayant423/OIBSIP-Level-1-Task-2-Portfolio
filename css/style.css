@@ -1,0 +1,195 @@
+* {
+font-family: 'Poppins';
+}
+
+
+
+body{
+    background-color: #EDCDBB;
+    color:#000;
+    
+}
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10px;
+    background: #191825;
+    display:flex;
+    justify-content: space-between;
+    align-items:centre;
+    z-index:100;
+}
+.logo{
+    font-size:2rem;
+    color: #FF8787;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0% 10%;
+    text-decoration: none;
+}
+
+.navbar a {
+    font-size:18px;
+    color: #F1F7B5 ;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 50px;   
+}
+
+
+
+.logo:hover{
+    color: #227C70;
+    text-shadow: 0 0 5px #4D455D,
+                0 0 25px #4D455D,
+                0 0 50px #4D455D,
+                0 0 100px #4D455D;
+  
+}
+.navbar a:hover{
+ color: #7DB9B6;
+ text-decoration: underline;
+ transition: all 0.5s;
+ 
+}
+#home{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    padding:0% 10%
+    
+}
+.home-content{
+    background-color:  #BAD7DF;
+    padding: 40px;
+    max-width: 600px;
+    
+
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+.home-content h3{
+    font-size:32px;
+    font-weight: 700;
+    color: #227C70;
+}
+.home-content p{
+    font-size: 26px;
+}
+
+.title-img{
+    width:40rem;
+    float: right;
+    
+}
+
+/*------------------------------ EDUCATION SECTION---------------*/
+
+.edu-content{
+    
+    min-height: 100vh;
+    margin-top: 2rem;
+    background-color:#BAD7DF;
+    padding:55px;
+    font-size: 1.5rem;
+    scroll-behavior: smooth;
+    
+}
+
+.box{
+    
+    background-color:#F1F7B5 ;
+    display: inline-grid;
+    padding: 0% 1% 1% 1%;
+    float: left;
+    max-width: 30%;
+    margin: 0.5%;
+    max-height: 33%;
+    
+}
+/*------------------------Certification Section--------------------------*/
+#certification{
+    background-color:#EDCDBB;
+    padding: 2rem;
+    margin-top: 3rem;
+
+}
+
+.certi-title{
+    font-weight: 900;
+    font-size: xx-large;
+    text-shadow:    2px 2px 1px #BAD7DF,
+                     2px 2px 1px #BAD7DF,
+                     2px 2px 1px #BAD7DF,
+                     2px 2px 1px #BAD7DF;
+}
+
+
+.skill-content a{
+    
+        font-size:18px;
+        color: #BAD7DF ;
+        text-decoration:none ;
+        margin-left: 5px;
+        margin-right: 50px;   
+        text-shadow:     1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         1px 1px 0 #000,
+                         0px 0px 0 #000;
+}
+.skill-content{
+   background-color: #F1F7B5;
+   padding: 2%;
+   margin: 1%;
+}
+
+.udemy-icon{
+    
+    display: inline-grid;
+    max-width: 1.5rem;
+    margin-left: 0;
+}
+
+.udemy-icon:hover{
+    fill: #A435F0;
+}
+
+.nptel-img{
+    display: inline-grid;
+    max-width: 1.5rem;
+}
+/*---------footer-------------------*/
+#footer{
+    background-color: #191825;
+    color: #F1F7B5;
+    padding: auto;
+    margin:auto; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    text-decoration: none;
+}
+
+.icon{
+    display: inline-grid;
+    padding:2%;
+
+    transform: scale(1.5);
+    color: #F1F7B5;
+}
+.icon:hover{
+    transform: scale(1.76);
+    color:#227C70;
+    transition: all 0.3s ease-in-out;
+}
+.about{
+    margin:auto;
+} 
+  
+  
